@@ -1,0 +1,17 @@
+Package: Lab4
+Type: Package
+Title: Multiple regression Using Simple linear algebra and RC class
+Version: 0.1.0
+Author: Group 15
+Maintainer: Muhaiminul Islam and Hirbod Gholamnia <muhis097@student.liu.se>
+Description: In this R package we write the code for a multiple regression model. The function is called
+    linreg() and have the two arguments formula and data.
+License: GPL-3
+Imports: methods, ggplot2, gridExtra, nycflights13, dplyr, MASS
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+
